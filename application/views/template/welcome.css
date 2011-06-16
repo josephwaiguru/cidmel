@@ -1,0 +1,145 @@
+* { padding: 0; margin: 0; }
+
+body {
+    font-family: 'Didact', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /* background-color: #eef;*/
+}
+#wrapper { 
+    margin: 0 auto;
+    width: 922px;
+}
+#faux {
+    background: url(faux-1-3-col.gif);
+    margin-bottom: 5px;
+    overflow: auto; /* Paul O Brien Fix for IE www.pmob.co.uk */
+    width: 100%
+}
+#header {
+    color: #333;
+    width: 898px;
+    padding: 10px;
+    height: 230px;
+    margin: 10px 0px 5px 0px;
+    background: url(cielo3.jpg);
+    background-repeat: no-repeat;
+    border: 1px #00f solid;
+    font-size: 20px;
+}
+#navigation {
+    /* color: #333; */
+    width: 898px;
+    padding: 10px;
+    margin: 0px 0px 5px 0px;
+    background: #bbf;
+    border: 1px #00f solid;
+}
+#leftcolumn { 
+    display: inline;
+    color: #333;
+    margin: 0px;
+    padding: 10px;
+    width: 195px;
+    float: left;
+    border: 1px #00f solid;
+    background-color: #ddf;
+}
+
+#content { 
+    float: left;
+    color: #333;
+    margin: 5px;
+    margin-top: 0px;
+    padding: 10px;
+    width: 426px;
+    display: inline;
+    position: relative;
+    border: 1px solid #00f;
+    background-color: #eef;
+}
+#rightcolumn { 
+    display: inline;
+    /*position: relative;*/
+    color: #333;
+   /* margin: 10px 10px 10px 0px; */
+    margin-top: 0px;
+    margin-right: 2px;
+    padding: 0px;
+    width: 245px;
+    float: right;
+}
+#footer { 
+    width: 902px;
+    clear: both;
+    color: #333;
+    background: #ABBEBE;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+}
+
+.clear { clear: both; background: none; }
+
+#loginBox {
+    float: right;
+}
+
+#validationErrors {
+    float: left;
+    color: red;
+    font-weight: bold;
+}
+
+p{
+    display: inline;
+    padding-top: 2px;
+}
+
+ul {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+h3 {
+    border-bottom: 1px solid #000;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.courseIcon {
+    list-style-image: url(applications-office.png);
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.usersIcon {
+    list-style-image: url(system-users.png);
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.assignIcon {
+    list-style-image: url(mail-send-receive.png);
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.editIcon {
+    list-style-image: url(accessories-text-editor.png);
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+td, th {
+    padding: 5px;
+}
+
+table {
+    background-color: white;
+}
+
+.center {
+    text-align: center;
+}
